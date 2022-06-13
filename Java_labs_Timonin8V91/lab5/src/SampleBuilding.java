@@ -1,8 +1,8 @@
-class Building {
+class SampleBuilding implements Building{
     String city, street, postal_code;
     int houseNum;
 
-    public Building(String street, String city, int houseNum, String postal_code) {
+    public SampleBuilding(String street, String city, int houseNum, String postal_code) {
         this.street = street;
         this.city = city;
         this.houseNum = houseNum;
